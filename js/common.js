@@ -1,8 +1,8 @@
 $(function () {
 
   // 共通パーツ
-  $("header").load("../layout/header.html");
-  $("footer").load("../layout/footer.html");
+  $("header").load("./layout/header.html");
+  $("footer").load("./layout/footer.html");
 
   // サムネ取得
   $(".cover-image").each(function (i, elem) {

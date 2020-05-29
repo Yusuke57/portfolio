@@ -15,7 +15,7 @@ body {
   box-sizing: border-box;
 }
 
-.content {
+.inner-content {
   width: 70vw;
   margin-left: 15vw;
 }
