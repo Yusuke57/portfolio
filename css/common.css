@@ -15,6 +15,11 @@ body {
   box-sizing: border-box;
 }
 
+.content {
+  width: 70vw;
+  margin-left: 15vw;
+}
+
 /* ヘッダー */
 header {
   -moz-box-shadow: 0 0px 2px 1px rgba(0,0,0,0.4);
@@ -142,7 +147,6 @@ h2.heading {
   position: relative;
   padding-top: 60px;
   height: 92vh;
-  min-width: 100vw;
   overflow: hidden;
 }
 
@@ -197,6 +201,40 @@ h2.heading {
   left: 0;
   right: 0;
 }
+
+.title-name {
+  font-size: 2em;
+  margin: 10px;
+}
+
+.my-link-icons {
+  height: 56px;
+  margin: 60px 14px 60px;
+}
+
+.my-link-icons a {
+  height: 100%;
+  margin: 20px;
+}
+
+.my-link-icons a img {
+  height: 100%;
+}
+
+.store-link-badges {
+  height: 56px;
+  margin: 60px 20px 200px;
+}
+
+.store-link-badges a {
+  height: 100%;
+  margin: 20px;
+}
+
+.store-link-badges a img {
+  height: 100%;
+}
+
 
 .clear {
   clear: both;

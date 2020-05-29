@@ -1,7 +1,5 @@
 .toppage-wrapper {
   text-align: center;
-  width: 90vw;
-  margin-left: 5vw;
 }
 
 .top-fade {
@@ -38,7 +36,6 @@ a.twitter-link {
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
-  width: 100vw;
 }
 
 .cover-image {
