@@ -60,11 +60,13 @@ $(function () {
     new Work("正義の警察", Category.Game, "ブラウザゲーム", "unity1week総合21位", "2019-10-20", "https://unityroom.com/games/justice-police", true, "justice-police.gif"),
     new Work("cubiron", Category.Game, "iOS/Androidアプリ", "スネーク×ハイカジュ", "2019-12-2", "https://unity-yuji.xyz/rd/cubiron.html", false, "cubiron.gif"),
     new Work("Charge Rod", Category.Game, "iOS/Androidアプリ", "1週間で開発", "2019-12-10", "https://unity-yuji.xyz/rd/charge-rod.html", false, "charge-rod.gif"),
+    new Work("GameUI.net", Category.Web, "WEBサイト", "ゲームUIの知見共有", "2020-2-16", "http://game-ui.net/", true, "game-ui.png"),
     new Work("Coin&Block", Category.Game, "ブラウザゲーム", "unity1week総合11位", "2020-3-1", "https://unityroom.com/games/coin-block", false, "coin-block.gif"),
     new Work("Push - ブロックを<br>押して動かすパズル", Category.Game, "iOS/Androidアプリ", "ゲームデザイン/UIに注力", "2020-4-12", "https://unity-yuji.xyz/rd/push.html", false, "push.gif"),
     new Work("名画を狙う怪盗たち", Category.Game, "ブラウザゲーム", "unity1week総合5位", "2020-5-3", "https://unityroom.com/games/thiefs-art", false, "thiefs.gif"),
+    new Work("『アンリアルライフ』<br>ファンアート", Category.Art, "ピクセルアート", "一番好きなゲームを描いた", "2020-5-16", null, false, "unreal-life.gif"),
+    new Work("『名画を狙う怪盗たち』<br>開発時に描いた名画", Category.Art, "ピクセルアート", "名画×16", "2020-5-20", null, false, "thief-arts.gif"),
     new Work("Swap Motion", Category.Game, "iOS/Androidアプリ", "音と動きの気持ち良さ", "2020-5-29", "https://unity-yuji.xyz/rd/swap.html", false, "swap.gif"),
-    new Work("GameUI.net", Category.Web, "WEBサイト", "ゲームUIの知見共有", "2020-2-16", "http://game-ui.net/", true, "game-ui.png"),
   ];
 
 
@@ -97,6 +99,7 @@ $(function () {
 
   $('.work-list-game').prepend(getWorksHtmlByCategory(Category.Game));
   $('.work-list-web').prepend(getWorksHtmlByCategory(Category.Web));
+  $('.work-list-art').prepend(getWorksHtmlByCategory(Category.Art));
 
 
 });
