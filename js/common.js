@@ -72,7 +72,7 @@ $(function () {
 
   // 作品情報を挿入
   function getWorkHtml(workData) {
-    var html = '<div class="cover-image" style="background-image: ' + 'url("img/thumbnail/' + workData.thumb + '")' + '>\n'
+    var html = '<div class="cover-image" style="background-image: ' + 'url(\'img/thumbnail/' + workData.thumb + '\')' + '>\n'
     html += '<a class="content" href="' + workData.url + '">\n';
     html += '<div class="overlay-text">\n';
     html += '<div class="content-title">' + workData.title + '</div>\n';
