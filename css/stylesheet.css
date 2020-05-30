@@ -49,9 +49,11 @@ h2.black-back {
 }
 
 
-.genre-area {
-  margin: 6em 0;
-  padding: 6em 2.5vw 8em;
+.content-area {
+  padding: 10em 2.5vw 6em;
+}
+
+.black-area {
   background-color: #333;
 }
 
@@ -88,13 +90,13 @@ h2.black-back {
 }
 
 .genre-detail {
-  color: #bbb;
+  color: #ccc;
   margin-left: 3em;
   text-align: left;
 }
 
 .genre-detail strong {
-  color: #ddd;
+  color: #eee;
 }
 
 
@@ -242,10 +244,8 @@ a.content {
 
 
 
-.genre-area {
-  margin: 6em 0;
-  padding: 6em 15vw 16em;
-  background-color: #333;
+.content-area {
+  padding: 14em 15vw;
 }
 
 .genre-flex {
@@ -256,6 +256,7 @@ a.content {
 
 .genre {
   width: 20%;
+  height: auto;
   margin-left: 10%;
   text-align: center;
   display: block;
@@ -280,13 +281,21 @@ a.content {
 }
 
 .genre-detail {
-  font-size: 1.1vw;
+  font-size: 1.36vw;
   margin-top: 2em;
   margin-left: 0;
-  color: #aaa;
+  color: #ccc;
   text-align: center;
 }
 
+.cover-image {
+    transition: .2s all;
+}
+
+.cover-image:hover {
+    transform: scale(1.1);
+    transition: .2s all;
+}
 
 
   a.content {
@@ -311,15 +320,17 @@ a.content {
   }
 
   .overlay-text {
+    font-size: 12px;
     background-color: rgba(0, 0, 0, .7);
     height: 100%;
     top: 0;
   }
 
   .content-title {
+    font-size: 18px;
     background-color: rgba(0, 0, 0, 0);
     color: white;
-    margin-top: 58px;
+    margin-top: 62px;
   }
 
   .content-category {
@@ -330,7 +341,7 @@ a.content {
   .content-detail {
     background-color: rgba(0, 0, 0, 0);
     color: rgba(255, 255, 255, .7);
-  margin-top: 16px;
+    margin-top: 16px;
   }
 
   .content-date {
