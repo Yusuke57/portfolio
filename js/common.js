@@ -37,7 +37,7 @@ $(function () {
     new Work("Treasure Hunter", Category.Game, "ブラウザゲーム", "初Unityでの開発", "2016-12-6", "https://unityroom.com/games/treasurehunter", true, "treasure-hunter.gif"),
     new Work("Knight Puzzle", Category.Game, "iOS/Androidアプリ", "初めてのアプリ開発", "2017-2-7", "https://unity-yuji.xyz/rd/knight-puzzle.html", false, "knight-puzzle.gif"),
     new Work("鉄骨ワタリ", Category.Game, "iOSアプリ", "1週間で開発/中国で人気", "2017-2-14", "https://unity-yuji.xyz/rd/tekkotsu.html", false, "tekkotsu.gif"),
-    new Work("ハズレピクトを探せ！", Category.Game, "iOSアプリ", "子供も楽しめる間違い探し", "2017-3-17", "https://unity-yuji.xyz/rd/hazure-pict.html", false, "hazure-pict.gif"),
+    new Work("ハズレピクトを探せ！", Category.Game, "iOSアプリ", "子供も楽しめる間違い探し", "2017-3-17", "https://unity-yuji.xyz/rd/hazure-pict.html", false, "hazure-pict.png"),
     new Work("Switch!", Category.Game, "iOSアプリ", "天地を入れ替えるアクション", "2017-4-28", "https://unity-yuji.xyz/rd/switch.html", false, "switch.gif"),
     new Work("ナンプレ自動計算機", Category.Game, "iOS/Androidアプリ", "ナンプレの答えを出すアプリ", "2017-6-4", "https://unity-yuji.xyz/rd/number-place.html", false, "number-place.gif"),
     new Work("Three Rings", Category.Game, "iOSアプリ", "スワイプのみの3DSTG", "2017-10-3", "https://unity-yuji.xyz/rd/three-rings.html", false, "three-rings.gif"),
