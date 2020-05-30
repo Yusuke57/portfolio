@@ -29,10 +29,9 @@ a.twitter-link {
 
 
 .contents-list {
-  /* display: table; */
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;

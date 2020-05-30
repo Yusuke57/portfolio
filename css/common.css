@@ -16,8 +16,8 @@ body {
 }
 
 .inner-content {
-  width: 70vw;
-  margin-left: 15vw;
+  width: 95vw;
+  margin-left: 2.5vw;
 }
 
 /* ヘッダー */
@@ -397,4 +397,10 @@ footer p {
     width: 50%;
     margin: 0 5% 200px;
   }
+
+  .inner-content {
+    width: 70vw;
+    margin-left: 15vw;
+  }
+
 }
