@@ -1,5 +1,7 @@
 .toppage-wrapper {
   text-align: center;
+  width: 95vw;
+  margin-left: 2.5vw;
 }
 
 .top-fade {
@@ -26,6 +28,77 @@ a.twitter-link {
   margin: 60px 0 180px;
   font-size: 6vw;
 }
+
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 2em 2.6em;
+  padding: 0.4em 0;
+}
+
+h2.white-back {
+  background-color: white;
+  color: #333;
+}
+
+h2.black-back {
+  background-color: #333;
+  color: white;
+}
+
+
+.genre-area {
+  margin: 6em 0;
+  padding: 6em 2.5vw 8em;
+  background-color: #333;
+}
+
+.genre-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.genre {
+  width: 90%;
+  height: 160px;
+  margin-left: 12%;
+  margin-bottom: 5.2em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.genre-head {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+}
+
+.genre img {
+  width: 100%;
+  height: auto;
+}
+
+.genre-label {
+  font-size: 2em;
+  font-weight: bold;
+  color: #bbb;
+}
+
+.genre-detail {
+  color: #bbb;
+  margin-left: 3em;
+  text-align: left;
+}
+
+.genre-detail strong {
+  color: #ddd;
+}
+
+
+
 
 
 .contents-list {
@@ -132,14 +205,89 @@ a.content {
     font-size: 30px;
   }
 
+.genre {
+  width: 90%;
+  height: 160px;
+  margin-left: 24%;
+  margin-bottom: 4em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.genre-head {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
 
 }
 
 @media screen and (min-width: 899px) {
 
+  .toppage-wrapper {
+  text-align: center;
+  width: 70vw;
+  margin-left: 15vw;
+}
+
   .toppage-wrapper h1 {
     font-size: 40px;
   }
+
+  h2 {
+  margin-bottom: 4em;
+}
+
+
+
+.genre-area {
+  margin: 6em 0;
+  padding: 6em 15vw 16em;
+  background-color: #333;
+}
+
+.genre-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.genre {
+  width: 20%;
+  margin-left: 10%;
+  text-align: center;
+  display: block;
+}
+
+.genre-head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.genre img {
+  width: 100%;
+  height: auto;
+}
+
+.genre-label {
+  font-size: 2em;
+  font-weight: bold;
+  color: #eee;
+  margin-top: 0.6em;
+}
+
+.genre-detail {
+  font-size: 1.1vw;
+  margin-top: 2em;
+  margin-left: 0;
+  color: #aaa;
+  text-align: center;
+}
+
+
 
   a.content {
     opacity: 0;

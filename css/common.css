@@ -13,11 +13,12 @@ body {
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+  position: relative;
 }
 
 .inner-content {
-  width: 95vw;
-  margin-left: 2.5vw;
+  /* width: 95vw;
+  margin-left: 2.5vw; */
 }
 
 /* ヘッダー */
@@ -233,6 +234,7 @@ h2.heading {
 
 .store-link-badges a img {
   height: 100%;
+  margin-bottom: 10px;
 }
 
 
@@ -399,8 +401,8 @@ footer p {
   }
 
   .inner-content {
-    width: 70vw;
-    margin-left: 15vw;
+    /* width: 70vw;
+    margin-left: 15vw; */
   }
 
 }
