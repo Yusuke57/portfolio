@@ -32,7 +32,7 @@ $(function () {
 
   // 作品一覧
   const works = [
-    new Work("STAR TRIPS", Category.Game, "OpenGLゲーム(未リリース)", "大学課題で初ゲーム開発", "2016-2-12", null, "star-trips.gif"),
+    new Work("STAR TRIPS", Category.Game, "OpenGLゲーム(未リリース)", "大学課題で初ゲーム開発", "2016-2-12", "https://twitter.com/yuji_ap/status/1267044989214679041", "star-trips.gif"),
     new Work("Treasure Hunter", Category.Game, "ブラウザゲーム", "初Unityでの開発", "2016-12-6", "https://unityroom.com/games/treasurehunter", "treasure-hunter.gif"),
     new Work("Knight Puzzle", Category.Game, "iOS/Androidアプリ", "初めてのアプリ開発", "2017-2-7", "https://unity-yuji.xyz/rd/knight-puzzle.html", "knight-puzzle.gif"),
     new Work("鉄骨ワタリ", Category.Game, "iOSアプリ", "1週間で開発/中国で人気", "2017-2-14", "https://unity-yuji.xyz/rd/tekkotsu.html", "tekkotsu.gif"),

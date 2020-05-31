@@ -101,6 +101,31 @@ h2.black-back {
 
 
 
+.genre-heading {
+  width: 90vw;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  margin: 12em 0 2em 4vw;
+}
+
+img.heading-icon {
+  height: 80px;
+}
+
+.heading {
+  background: #fff2d4;
+  padding: 8px 0 8px 50px;
+  margin-left: -40px;
+  vertical-align: middle;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  border-radius: 0 10px 10px 0;
+  z-index: -99;
+  width: 65vw;
+}
+
 
 
 .contents-list {
@@ -223,6 +248,10 @@ a.content {
   flex-direction: column;
 }
 
+.heading {
+  width: 76vw;
+}
+
 
 }
 
@@ -286,6 +315,13 @@ a.content {
   margin-left: 0;
   color: #ccc;
   text-align: center;
+}
+
+
+
+.genre-heading {
+  width: auto;
+  margin-left: 0;
 }
 
 .cover-image {
