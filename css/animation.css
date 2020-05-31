@@ -1,0 +1,9 @@
+h2.delighter {
+  display: block; transition: all 0.1s ease-out; opacity: 0;
+  width: 30%; overflow: hidden;
+}
+
+h2.delighter.started {
+  width: 100%;
+  opacity: 1;
+}

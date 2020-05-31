@@ -34,7 +34,7 @@ h2 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-  margin: 0 2em 2.6em;
+  margin: 0 2em 1em;
   padding: 0.4em 0;
 }
 
@@ -268,7 +268,9 @@ a.content {
   }
 
   h2 {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
@@ -300,6 +302,12 @@ a.content {
 .genre img {
   width: 100%;
   height: auto;
+  transition: .2s all;
+}
+
+.genre img:hover{
+  transform: scale(1.1);
+  transition: .2s all;
 }
 
 .genre-label {
@@ -323,6 +331,64 @@ a.content {
   width: auto;
   margin-left: 0;
 }
+
+
+.curtain {
+  position: relative;
+}
+
+.curtain span {
+  transition: all 0s 2s ease;
+  opacity: 0;
+}
+
+.curtain.active span {
+  opacity: 1;
+}
+
+.curtain:after {
+  display: inline;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  background: #2f2e2e;
+}
+
+.curtain.active:after {
+  animation: curtain 1s ease 1.5s 1 normal both running;
+}
+
+@keyframes curtain {
+  0% {
+    transform-origin: left center;
+    transform: scaleX(0)
+  }
+
+  49.999% {
+    transform-origin: left center;
+    transform: scaleX(1)
+  }
+
+  50% {
+    transform-origin: right center;
+    transform: scaleX(1)
+  }
+
+  100% {
+    transform-origin: right center;
+    transform: scaleX(0)
+  }
+}
+@media screen and (max-width:640px){
+  .text {
+    font-size: 30px;
+  }
+}
+
 
 .cover-image {
     transition: .2s all;

@@ -32,7 +32,10 @@
   <!-- 外部CSS/script -->
   <link rel="stylesheet" href="css/common.css?181012-2" type="text/css" charset="UTF-8" />
   <link rel="stylesheet" href="css/stylesheet.css?181012-3" type="text/css" charset="UTF-8" />
+  <link rel="stylesheet" href="css/animation.css?181012-3" type="text/css" charset="UTF-8" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/delighters.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
   <script src="js/common.js?01" type="text/javascript" charset="UTF-8"></script>
   <script src="js/script.js" type="text/javascript" charset="UTF-8"></script>
 
@@ -54,7 +57,7 @@
 
       <div class="top-fade title-name">Yusuke Nakajima <br />（ゆーじ）</div>
 
-      <div class="my-link-icons">
+      <div class="my-link-icons top-fade">
         <a href="https://twitter.com/yuji_ap" target="_blank">
           <img src="img/link/twitter.png" alt="Twitter" />
         </a>
@@ -66,7 +69,7 @@
         </a>
       </div>
 
-      <div class="store-link-badges">
+      <div class="store-link-badges top-fade">
         <a href="https://apps.apple.com/jp/developer/yusukenakajima/id1199527949" target="_blank">
           <img src="img/link/appstore.png" alt="AppStore" />
         </a>
@@ -79,14 +82,16 @@
 
     <!-- ジャンル -->
     <div class="content-area black-area">
-      <h2 class="white-back">Genre</h2>
+      <span class="h2-scaler">
+        <h2 class="white-back delighter started" data-delighter="start:0.8">Genre</h2>
+      </span>
       <div class="genre-flex">
         <div class="genre">
           <div class="genre-head">
-            <img src="img/game.png" alt="game" />
-            <div class="genre-label">GAME</div>
+            <img src="img/game.png" alt="game" id="to-game" class="fadein" />
+            <div class="genre-label fadein">GAME</div>
           </div>
-          <div class="genre-detail">
+          <div class="genre-detail fadein">
             2016年〜現在<br />
             アプリ<strong>20本</strong><br />
             ブラウザゲーム<strong>5本</strong><br />
@@ -97,10 +102,10 @@
         </div>
         <div class="genre">
           <div class="genre-head">
-            <img src="img/web.png" alt="web" />
-            <div class="genre-label">WEB</div>
+            <img src="img/web.png" alt="web" id="to-web" class="fadein" />
+            <div class="genre-label fadein">WEB</div>
           </div>
-          <div class="genre-detail">
+          <div class="genre-detail fadein">
             2018年〜現在<br />
             <strong>8本</strong>のサイトを開発<br />
             チームでの開発運営<br />
@@ -111,10 +116,10 @@
         </div>
         <div class="genre">
           <div class="genre-head">
-            <img src="img/art.png" alt="art" />
-            <div class="genre-label">ART</div>
+            <img src="img/art.png" alt="art" id="to-art" class="fadein" />
+            <div class="genre-label fadein">ART</div>
           </div>
-          <div class="genre-detail">
+          <div class="genre-detail fadein">
             2020年〜現在<br />
             <strong>ピクセルアート</strong>に興味<br />
             動画制作経験もあり
@@ -126,21 +131,23 @@
 
     <!-- 作品 -->
     <div class="content-area white-area">
-      <h2 class="black-back">Works</h2>
+      <span class="h2-scaler">
+        <h2 class="black-back delighter started" data-delighter="start:0.8">Works</h2>
+      </span>
 
-      <div class="genre-heading">
+      <div class="genre-heading fadein" id="game">
         <img class="heading-icon" src="img/game.png" alt="game" />
         <span class="heading">GAME</span>
       </div>
       <div class="work-list-game contents-list"></div>
 
-      <div class="genre-heading">
+      <div class="genre-heading fadein" id="web">
         <img class="heading-icon" src="img/web.png" alt="web" />
         <span class="heading">WEB</span>
       </div>
       <div class="work-list-web contents-list"></div>
 
-      <div class="genre-heading">
+      <div class="genre-heading fadein" id="art">
         <img class="heading-icon" src="img/art.png" alt="art" />
         <span class="heading">ART</span>
       </div>

@@ -10,6 +10,10 @@ $(function () {
     $(elem).css("background-image", "url('" + $path + "img/thumb.png')");
   });
 
+  // フェード
+  ScrollReveal().reveal('.fadein');
+
+
 
   // 作品クラス
   function Work(title, category, subCategory, detail, date, url, thumb) {
