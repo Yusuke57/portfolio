@@ -17,6 +17,19 @@ $(function () {
   $("#to-art").click(function () {
     scrollToGenre("art");
   });
+
+  // 目次
+  (function () {
+    "use strict;"
+
+    tocbot.init({
+      tocSelector: '.js-toc',
+      contentSelector: '.js-toc-content',
+      headingSelector: 'h1, h2, h3, .toc',
+      collapseDepth: 3,
+    });
+
+  })();
 });
 
 function scrollToGenre(genre) {

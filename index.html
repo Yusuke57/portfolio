@@ -39,6 +39,9 @@
   <script src="js/common.js?01" type="text/javascript" charset="UTF-8"></script>
   <script src="js/script.js" type="text/javascript" charset="UTF-8"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/2.1.5/tocbot.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/2.1.5/tocbot.css">
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -47,114 +50,116 @@
 </head>
 
 <body>
-  <header></header>
+  <!-- <header></header> -->
 
-  <div class="inner-content">
+  <div class="wrapper">
+    <!-- <nav class="toc js-toc soft-double transition--300 position--absolute nav-area"></nav> -->
 
-    <!-- トップ -->
-    <div class="toppage-wrapper">
-      <img class="top-icon top-fade" src="img/icon/yuji_icon_512x512.png" alt="yuji_icon_512x512.png" /><br>
+    <div class="inner-content js-toc-content">
 
-      <div class="top-fade title-name">Yusuke Nakajima <br />（ゆーじ）</div>
+      <!-- トップ -->
+      <div class="toppage-wrapper toc">
+        <img class="top-icon top-fade" src="img/icon/yuji_icon_512x512.png" alt="yuji_icon_512x512.png" /><br>
 
-      <div class="my-link-icons top-fade">
-        <a href="https://twitter.com/yuji_ap" target="_blank">
-          <img src="img/link/twitter.png" alt="Twitter" />
-        </a>
-        <a href="https://github.com/Yusuke57" target="_blank">
-          <img src="img/link/github.png" alt="GitHub" />
-        </a>
-        <a href="https://unity-yuji.xyz" target="_blank">
-          <img src="img/link/blog.png" alt="Blog" />
-        </a>
-      </div>
+        <div class="top-fade title-name">Yusuke Nakajima <br />（ゆーじ）</div>
 
-      <div class="store-link-badges top-fade">
-        <a href="https://apps.apple.com/jp/developer/yusukenakajima/id1199527949" target="_blank">
-          <img src="img/link/appstore.png" alt="AppStore" />
-        </a>
-        <a href="https://play.google.com/store/apps/developer?id=Yusuke+Nakajima" target="_blank">
-          <img src="img/link/googleplay.png" alt="GooglePlay" />
-        </a>
-      </div>
-    </div>
-
-
-    <!-- ジャンル -->
-    <div class="content-area black-area">
-      <span class="h2-scaler">
-        <h2 class="white-back delighter started" data-delighter="start:0.8">Genre</h2>
-      </span>
-      <div class="genre-flex">
-        <div class="genre">
-          <div class="genre-head">
-            <img src="img/game.png" alt="game" id="to-game" class="fadein" />
-            <div class="genre-label fadein">GAME</div>
-          </div>
-          <div class="genre-detail fadein">
-            2016年〜現在<br />
-            アプリ<strong>20本</strong><br />
-            ブラウザゲーム<strong>5本</strong><br />
-            <br />
-            個人開発アプリ<br />
-            総計<strong>4万5000DL</strong>
-          </div>
+        <div class="my-link-icons top-fade">
+          <a href="https://twitter.com/yuji_ap" target="_blank">
+            <img src="img/link/twitter.png" alt="Twitter" />
+          </a>
+          <a href="https://github.com/Yusuke57" target="_blank">
+            <img src="img/link/github.png" alt="GitHub" />
+          </a>
+          <a href="https://unity-yuji.xyz" target="_blank">
+            <img src="img/link/blog.png" alt="Blog" />
+          </a>
         </div>
-        <div class="genre">
-          <div class="genre-head">
-            <img src="img/web.png" alt="web" id="to-web" class="fadein" />
-            <div class="genre-label fadein">WEB</div>
-          </div>
-          <div class="genre-detail fadein">
-            2018年〜現在<br />
-            <strong>8本</strong>のサイトを開発<br />
-            チームでの開発運営<br />
-            <br />
-            技術発信ブログ<br />
-            <strong>1万5000PV/月</strong>
-          </div>
-        </div>
-        <div class="genre">
-          <div class="genre-head">
-            <img src="img/art.png" alt="art" id="to-art" class="fadein" />
-            <div class="genre-label fadein">ART</div>
-          </div>
-          <div class="genre-detail fadein">
-            2020年〜現在<br />
-            <strong>ピクセルアート</strong>に興味<br />
-            動画制作経験もあり
-          </div>
+
+        <div class="store-link-badges top-fade">
+          <a href="https://apps.apple.com/jp/developer/yusukenakajima/id1199527949" target="_blank">
+            <img src="img/link/appstore.png" alt="AppStore" />
+          </a>
+          <a href="https://play.google.com/store/apps/developer?id=Yusuke+Nakajima" target="_blank">
+            <img src="img/link/googleplay.png" alt="GooglePlay" />
+          </a>
         </div>
       </div>
+
+      <!-- ジャンル -->
+      <div class="content-area black-area">
+        <h2 class="white-back">Genre</h2>
+        <div class="genre-flex">
+          <div class="genre">
+            <div class="genre-head">
+              <img src="img/game.png" alt="game" id="to-game" class="fadein" />
+              <div class="genre-label fadein">GAME</div>
+            </div>
+            <div class="genre-detail fadein">
+              2016年〜現在<br />
+              アプリ<strong>20本</strong><br />
+              ブラウザゲーム<strong>5本</strong><br />
+              <br />
+              個人開発アプリ<br />
+              総計<strong>4万5000DL</strong>
+            </div>
+          </div>
+          <div class="genre">
+            <div class="genre-head">
+              <img src="img/web.png" alt="web" id="to-web" class="fadein" />
+              <div class="genre-label fadein">WEB</div>
+            </div>
+            <div class="genre-detail fadein">
+              2018年〜現在<br />
+              <strong>8本</strong>のサイトを開発<br />
+              チームでの開発運営<br />
+              <br />
+              技術発信ブログ<br />
+              <strong>1万5000PV/月</strong>
+            </div>
+          </div>
+          <div class="genre">
+            <div class="genre-head">
+              <img src="img/art.png" alt="art" id="to-art" class="fadein" />
+              <div class="genre-label fadein">ART</div>
+            </div>
+            <div class="genre-detail fadein">
+              2020年〜現在<br />
+              <strong>ピクセルアート</strong>に興味<br />
+              動画制作経験もあり<br />
+              <br />
+              今後開発と並行して<br />
+              力を入れていきたい
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 作品 -->
+      <div class="content-area white-area">
+        <h2 class="black-back">Works</h2>
+
+        <div class="genre-heading fadein" id="game">
+          <img class="heading-icon" src="img/game.png" alt="game" />
+          <span class="heading">GAME</span>
+        </div>
+        <div class="work-list-game contents-list"></div>
+
+        <div class="genre-heading fadein" id="web">
+          <img class="heading-icon" src="img/web.png" alt="web" />
+          <span class="heading">WEB</span>
+        </div>
+        <div class="work-list-web contents-list"></div>
+
+        <div class="genre-heading fadein" id="art">
+          <img class="heading-icon" src="img/art.png" alt="art" />
+          <span class="heading">ART</span>
+        </div>
+        <div class="work-list-art contents-list"></div>
+      </div>
+
+
     </div>
-
-
-    <!-- 作品 -->
-    <div class="content-area white-area">
-      <span class="h2-scaler">
-        <h2 class="black-back delighter started" data-delighter="start:0.8">Works</h2>
-      </span>
-
-      <div class="genre-heading fadein" id="game">
-        <img class="heading-icon" src="img/game.png" alt="game" />
-        <span class="heading">GAME</span>
-      </div>
-      <div class="work-list-game contents-list"></div>
-
-      <div class="genre-heading fadein" id="web">
-        <img class="heading-icon" src="img/web.png" alt="web" />
-        <span class="heading">WEB</span>
-      </div>
-      <div class="work-list-web contents-list"></div>
-
-      <div class="genre-heading fadein" id="art">
-        <img class="heading-icon" src="img/art.png" alt="art" />
-        <span class="heading">ART</span>
-      </div>
-      <div class="work-list-art contents-list"></div>
-    </div>
-
-
   </div>
 
   <footer></footer>
