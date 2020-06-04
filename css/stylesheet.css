@@ -31,7 +31,7 @@ a.twitter-link {
 
 
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
   text-align: center;
   margin: 0 2em 1em;
@@ -222,6 +222,55 @@ a.content {
 
 
 
+.item-table {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.item-table .item-content {
+  vertical-align: top;
+  width: auto;
+  padding: 0 16%;
+  margin-bottom: 4em;
+}
+
+.achievements-table {
+  margin: auto;
+}
+
+.achievements-table td {
+  vertical-align: top;
+  padding-bottom: 1em;
+}
+
+.achievements-date {
+  padding-right: 1em;
+}
+
+
+.list-label {
+  font-weight: bold;
+  color: #333;
+  background-color: white;
+  text-align: center;
+  margin: 1em 1em;
+  padding: 1em;
+}
+
+.list-white {
+  color: white;
+  margin: 0 1em;
+}
+
+
+img.github-glass {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 8em;
+}
+
+
 @media screen and (min-width: 499px) {
 
   .top-icon {
@@ -230,6 +279,10 @@ a.content {
 
   .toppage-wrapper h1 {
     font-size: 30px;
+  }
+
+  h2 {
+    font-size: 2em;
   }
 
 .genre {
@@ -253,6 +306,12 @@ a.content {
 }
 
 
+
+.achievements-table {
+  margin: 0 4em;
+}
+
+
 }
 
 @media screen and (min-width: 899px) {
@@ -271,6 +330,20 @@ a.content {
   margin-bottom: 2em;
   margin-left: 0;
   margin-right: 0;
+}
+
+
+.item-table {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+
+.item-table .item-content {
+  vertical-align: top;
+  width: calc(100% / 3);
+  padding: 0;
 }
 
 
@@ -470,6 +543,12 @@ a.content {
 
   .inner-content {
     /* margin-left: 150px; */
+  }
+
+
+
+  .achievements-table {
+    margin: 0;
   }
 
 }
