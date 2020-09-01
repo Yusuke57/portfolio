@@ -71,8 +71,12 @@ $(function () {
     new Work("Push - ブロックを<br>押して動かすパズル", Category.Game, "iOS/Androidアプリ", "ゲームデザイン/UIに注力", "2020-4-12", "https://unity-yuji.xyz/rd/push.html", "push.gif"),
     new Work("名画を狙う怪盗たち", Category.Game, "ブラウザゲーム", "unity1week総合5位", "2020-5-3", "https://unityroom.com/games/thiefs-art", "thiefs.gif"),
     new Work("『アンリアルライフ』<br>ファンアート", Category.Art, "ピクセルアート", "一番好きなゲームを描いた", "2020-5-16", "https://twitter.com/yuji_ap/status/1261326234740379650", "unreal-life.gif"),
-    new Work("『名画を狙う怪盗たち』<br>開発時に描いた名画", Category.Art, "ピクセルアート", "名画×16", "2020-5-20", "https://twitter.com/yuji_ap/status/1263122464139169792", "thief-arts.gif"),
+    new Work("『名画を狙う怪盗たち』<br>開発時に描いた名画", Category.Art, "ピクセルアート", "名画×16", "2020-5-20", "https://twitter.com/yuji_ap/status/1263122464139169792", "thief-arts.png"),
     new Work("Swap Motion", Category.Game, "iOS/Androidアプリ", "音と動きの気持ち良さ", "2020-5-29", "https://unity-yuji.xyz/rd/swap.html", "swap.gif"),
+    new Work("DOTweenモーション", Category.Art, "モーショングラフィックス", "Sequence1つで実装", "2020-6-19", "https://www.youtube.com/watch?v=gpbn-v8CtgY", "motion-design-portfolio.gif"),
+    new Work("MotionDesignFestival", Category.Art, "モーションデザイン", "DOTweenで完走賞", "2020-7-27", "https://github.com/Yusuke57/MotionDesignFES", "motion-design-festival.gif"),
+    new Work("宝探しオンライン", Category.Game, "clusterゲーム", "ClusterGameJam参加", "2020-8-2", "https://cluster.mu/w/f728c0d1-2173-4a06-8eab-7ea631ce0e19", "takara.gif"),
+    new Work("かたぐるまクローンズ", Category.Game, "iOS/Androidアプリ", "unity1week総合2位", "2020-8-16", "https://unity-yuji.xyz/rd/clones.html", "clones.gif"),
   ];
 
 
