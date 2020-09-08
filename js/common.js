@@ -77,6 +77,7 @@ $(function () {
     new Work("MotionDesignFestival", Category.Art, "モーションデザイン", "DOTweenで完走賞", "2020-7-27", "https://github.com/Yusuke57/MotionDesignFES", "motion-design-festival.gif"),
     new Work("宝探しオンライン", Category.Game, "clusterゲーム", "ClusterGameJam参加", "2020-8-2", "https://cluster.mu/w/f728c0d1-2173-4a06-8eab-7ea631ce0e19", "takara.gif"),
     new Work("かたぐるまクローンズ", Category.Game, "iOS/Androidアプリ", "unity1week総合2位", "2020-8-16", "https://unity-yuji.xyz/rd/clones.html", "clones.gif"),
+    new Work("ボクノシメイ", Category.Game, "開発中", "ドット絵謎解きADV", "2022", "https://yuji-ap.fanbox.cc/", "shimei.gif"),
   ];
 
 
