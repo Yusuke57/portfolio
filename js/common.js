@@ -40,7 +40,7 @@ $(function () {
     new Work("Treasure Hunter", Category.Game, "ブラウザゲーム", "初Unityでの開発", "2016-12-6", "https://unityroom.com/games/treasurehunter", "treasure-hunter.gif"),
     new Work("Knight Puzzle", Category.Game, "iOS/Androidアプリ", "初めてのアプリ開発", "2017-2-7", "https://unity-yuji.xyz/rd/knight-puzzle.html", "knight-puzzle.gif"),
     new Work("鉄骨ワタリ", Category.Game, "iOSアプリ", "1週間で開発/中国で人気", "2017-2-14", "https://unity-yuji.xyz/rd/tekkotsu.html", "tekkotsu.gif"),
-    new Work("ハズレピクトを探せ！", Category.Game, "iOSアプリ", "子供も楽しめる間違い探し", "2017-3-17", "https://unity-yuji.xyz/rd/hazure-pict.html", "hazure-pict.png"),
+    new Work("ハズレピクトを探せ！", Category.Game, "iOSアプリ", "子供も楽しめる間違い探し<br>現在公開停止中", "2017-3-17", "https://unity-yuji.xyz/rd/hazure-pict.html", "hazure-pict.png"),
     new Work("Switch!", Category.Game, "iOSアプリ", "天地を入れ替えるアクション", "2017-4-28", "https://unity-yuji.xyz/rd/switch.html", "switch.gif"),
     new Work("ナンプレ自動計算機", Category.Game, "iOS/Androidアプリ", "ナンプレの答えを出すアプリ", "2017-6-4", "https://unity-yuji.xyz/rd/number-place.html", "number-place.gif"),
     new Work("Three Rings", Category.Game, "iOSアプリ", "スワイプのみの3DSTG", "2017-10-3", "https://unity-yuji.xyz/rd/three-rings.html", "three-rings.gif"),
@@ -77,7 +77,9 @@ $(function () {
     new Work("MotionDesignFestival", Category.Art, "モーションデザイン", "DOTweenで完走賞", "2020-7-27", "https://github.com/Yusuke57/MotionDesignFES", "motion-design-festival.gif"),
     new Work("宝探しオンライン", Category.Game, "clusterゲーム", "ClusterGameJam参加", "2020-8-2", "https://cluster.mu/w/f728c0d1-2173-4a06-8eab-7ea631ce0e19", "takara.gif"),
     new Work("かたぐるまクローンズ", Category.Game, "iOS/Androidアプリ", "unity1week総合2位", "2020-8-16", "https://unity-yuji.xyz/rd/clones.html", "clones.gif"),
+    new Work("Picolor", Category.Game, "iOS/Androidアプリ", "写真の色抽出アプリ", "2020-10-6", "https://unity-yuji.xyz/rd/picolor.html", "picolor.png"),
     new Work("ボクノシメイ", Category.Game, "開発中", "ドット絵謎解きADV", "2022", "https://yuji-ap.fanbox.cc/", "shimei.gif"),
+    new Work("笑顔の女の子", Category.Art, "ピクセルアート", "苦手な人物画にトライ", "2020-10-20", "https://yuji-ap.fanbox.cc/posts/1514467", "firstYui.png"),
   ];
 
 
