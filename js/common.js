@@ -80,6 +80,7 @@ $(function () {
     new Work("Picolor", Category.Game, "iOS/Androidアプリ", "写真の色抽出アプリ", "2020-10-6", "https://unity-yuji.xyz/rd/picolor.html", "picolor.png"),
     new Work("ボクノシメイ", Category.Game, "開発中", "ドット絵謎解きADV", "2022", "https://yuji-ap.fanbox.cc/", "shimei.gif"),
     new Work("笑顔の女の子", Category.Art, "ピクセルアート", "苦手な人物画にトライ", "2020-10-20", "https://yuji-ap.fanbox.cc/posts/1514467", "firstYui.png"),
+    new Work("目をあけて", Category.Game, "ブラウザゲーム", "unity1week総合1位", "2020-12-27", "https://unityroom.com/games/open-eyes", "open-eyes.gif"),
   ];
 
 
