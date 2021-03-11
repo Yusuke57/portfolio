@@ -81,6 +81,9 @@ $(function () {
     new Work("ボクノシメイ", Category.Game, "開発中", "ドット絵謎解きADV", "2022", "https://yuji-ap.fanbox.cc/", "shimei.gif"),
     new Work("笑顔の女の子", Category.Art, "ピクセルアート", "苦手な人物画にトライ", "2020-10-20", "https://yuji-ap.fanbox.cc/posts/1514467", "firstYui.png"),
     new Work("目をあけて", Category.Game, "ブラウザゲーム", "unity1week総合1位", "2020-12-27", "https://unityroom.com/games/open-eyes", "open-eyes.gif"),
+    new Work("クラブハウスからの脱出", Category.Game, "iOS/Androidアプリ", "初の脱出ゲーム開発", "2021-2-21", "https://unity-yuji.xyz/rd/escape-clubhouse.html", "escape-clubhouse.png"),
+    new Work("CUBE CLONES", Category.Game, "iOS/Androidアプリ", "学生時代の集大成", "2021-2-26", "https://unity-yuji.xyz/rd/cube-clones.html", "cube-clones.gif"),
+    new Work("Press Button", Category.Game, "ブラウザゲーム", "ミニマルなパズル", "2021-2-28", "https://unityroom.com/games/press-button", "press-button.gif"),
   ];
 
 
